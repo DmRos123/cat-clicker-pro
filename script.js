@@ -1,6 +1,7 @@
 
 // MODEL   --Stores the Cat data, includes: name, image url, and click count
 var model = {
+    adminArea: null,
     currentCat: null,
     cats: [
         {
