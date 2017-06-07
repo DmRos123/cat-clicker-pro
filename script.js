@@ -54,11 +54,22 @@ var octopus = {
     incrementCounter: function () {
         model.currentCat.clickings++;
         catView.render();
-    }
+    },
+    setAdminArea: function () {
+        model.adminArea = showPanel;
+        if ( showPanel > 0 ) {
+            adminView.render}
+    },
 };
 
 
 /*=======View=======*/
+var adminView = {
+    init: function () {
+        
+    }
+};
+
 var catView = {
     init: function () {
     this.myCatPic = document.getElementById('cat');
