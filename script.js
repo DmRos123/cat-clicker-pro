@@ -41,6 +41,7 @@ var octopus = {
         //initialize views
         catListView.init();
         catView.init();
+        adminView.init();
     },
     getCurrentCat: function () {
         return model.currentCat;
@@ -58,7 +59,7 @@ var octopus = {
     setAdminArea: function () {
         model.adminArea = showPanel;
         if ( showPanel > 0 ) {
-            adminView.render}
+            adminView.render();}
     },
 };
 
